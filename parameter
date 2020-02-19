@@ -9,8 +9,8 @@ name=fio_write_test
 ioengine=libaio
 iodepth=128
 rw=randwrite
-size=1M
-nrfiles=29000
+size=10G
+nrfiles=1
 group_reporting
 
 [job]
